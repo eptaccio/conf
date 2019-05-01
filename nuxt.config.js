@@ -1,55 +1,55 @@
 module.exports = {
   router: {
-    base: "/conf2019/"
+    base: '/conf/'
   },
   /*
   ** Headers of the page
   */
   head: {
-    title: "DevParaná Conference 2018",
+    title: 'DevParaná Conference 2019',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: "description",
-        name: "description",
-        content: "Dev Paraná Conference 2018"
+        hid: 'description',
+        name: 'description',
+        content: 'Dev Paraná Conference 2019'
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/conf/favicon.ico" },
+      { rel: 'icon', type: 'image/x-icon', href: '/conf/favicon.ico' },
       {
-        rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.0.10/css/all.css'
       }
     ],
     script: [
       {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/rellax/1.5.1/rellax.min.js"
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/rellax/1.5.1/rellax.min.js'
       },
       {
         src:
-          "https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"
+          'https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js'
       }
     ]
   },
   css: [
-    { src: "@/assets/sass/main.scss", lang: "scss" },
-    { src: "node_modules/the-grid-flexbox/css/the-grid.min.css", lang: "css" },
+    { src: '@/assets/sass/main.scss', lang: 'scss' },
+    { src: 'node_modules/the-grid-flexbox/css/the-grid.min.css', lang: 'css' },
     {
-      src: "node_modules/alerts-css/assets/css/alerts-css.min.css",
-      lang: "css"
+      src: 'node_modules/alerts-css/assets/css/alerts-css.min.css',
+      lang: 'css'
     }
   ],
   plugins: [
-    { src: "~plugins/smooth-scroll.js", ssr: false },
-    { src: "~plugins/ga.js", ssr: false },
-    { src: "~plugins/vue-countdown.js", ssr: false }
+    { src: '~plugins/smooth-scroll.js', ssr: false },
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/vue-countdown.js', ssr: false }
   ],
   /*
   ** Customize the progress bar color
   */
-  loading: { color: "#15a04b" },
+  loading: { color: '#15a04b' },
   /*
   ** Build configuration
   */
@@ -57,21 +57,21 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend(config, { isDev, isClient }) {
+    extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
-          enforce: "pre",
+          enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: "eslint-loader",
+          loader: 'eslint-loader',
           exclude: /(node_modules)/
-        });
+        })
       }
       config.module.rules.forEach(rule => {
-        if (rule.test.toString() === "/\\.vue$/") {
+        if (rule.test.toString() === '/\\.vue$/') {
           rule.options.loaders.scss[2].options.data =
-            '@import "./assets/sass/base/variables.scss";@import "./assets/sass/base/colors.scss";';
+            '@import "./assets/sass/base/variables.scss";@import "./assets/sass/base/colors.scss";'
         }
-      });
+      })
     }
   },
   modules: [
@@ -81,4 +81,4 @@ module.exports = {
     track: 'PageView',
     pixelId: '244754419595080'
   }
-};
+}

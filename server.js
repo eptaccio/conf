@@ -3,6 +3,7 @@ const app = express()
 const path = require('path')
 
 app.use('/conf', express.static(path.join(__dirname, '/dist')))
+
 app.all('/', (req, res, next) => {
   res.redirect('/conf')
   next()
