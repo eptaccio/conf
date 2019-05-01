@@ -4,7 +4,7 @@
     <div class="relative container wrap">
       <div class="rotate--box-title">
         <div class="box-title">
-          <h2>Palestrantes</h2>
+          <h2>Palestrantes Confirmados</h2>
         </div>
       </div>
 

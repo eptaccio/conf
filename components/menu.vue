@@ -38,6 +38,10 @@
                 <li>
                   <router-link to="#contact">Contato</router-link>
                 </li>
+                <li>
+                <a target="_blank" href="http://bit.ly/c4pdevpr2019">Call 4 Papers</a>
+
+                </li>
               </ul>
             </nav>
           </div>

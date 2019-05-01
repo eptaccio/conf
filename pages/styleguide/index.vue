@@ -7,12 +7,12 @@
       </div>
 
       <div class="">
-        <h1>h1. DevParaná Conference 2018</h1>
-        <h2>h2. DevParaná Conference 2018</h2>
-        <h3>h3. DevParaná Conference 2018</h3>
-        <h4>h4. DevParaná Conference 2018</h4>
-        <h5>h5. DevParaná Conference 2018</h5>
-        <h6>h6. DevParaná Conference 2018</h6>
+        <h1>h1. DevParaná Conference 2019</h1>
+        <h2>h2. DevParaná Conference 2019</h2>
+        <h3>h3. DevParaná Conference 2019</h3>
+        <h4>h4. DevParaná Conference 2019</h4>
+        <h5>h5. DevParaná Conference 2019</h5>
+        <h6>h6. DevParaná Conference 2019</h6>
       </div>
 
       <div class="">
@@ -30,7 +30,7 @@
       <div class="margin-top-50 container">
         <div class="box-data container column">
           <span class="span-uppercase">DATA</span>
-          <span>28 de julho</span>
+          <span>03 de agosto</span>
         </div>
 
         <div class="box-data container column">
@@ -55,9 +55,9 @@
       </div>
 
       <div class="margin-top-20">
-        <p>DevParaná Conference 2018</p>
-        <p class="color-primary">DevParaná Conference 2018</p>
-        <p class="color-secundary">DevParaná Conference 2018</p>
+        <p>DevParaná Conference 2019</p>
+        <p class="color-primary">DevParaná Conference 2019</p>
+        <p class="color-secundary">DevParaná Conference 2019</p>
       </div>
     </div>
 

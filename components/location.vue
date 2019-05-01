@@ -12,12 +12,12 @@
         <div class="header--block--date container column">
           <div class="box-data container column margin-bottom-40">
             <span class="span-uppercase">Localização</span>
-            <span class="font-span">Parque Internacional de Exposições Francisco Feio Ribeiro - Maringá PR</span>
+            <span class="font-span">Unicesumar - Maringá PR</span>
           </div>
 
           <div class="box-data container column margin-bottom-40">
             <span class="span-uppercase">DATA</span>
-            <span class="font-span">28 de julho</span>
+            <span class="font-span">3 de agosto</span>
           </div>
 
           <div class="box-data container column">
@@ -30,9 +30,9 @@
 
       <div class="flex-grow-1 flex-basis-300">
         <div class="map-content">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14644.417575241552!2d-51.9018197!3d-23.4205958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbfb7c9cce3800fc1!2sParque+Internacional+de+Exposi%C3%A7%C3%B5es+Francisco+Feio+Ribeiro!5e0!3m2!1spt-BR!2sbr!4v1524840886684"
-            width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58567.482313312714!2d-51.952370620898456!3d-23.443590299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81a413a9c9463%3A0x4e3ee356ad1bd6c3!2sUniCesumar+-+Maring%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1556671598039!5m2!1spt-BR!2sbr"
+             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>

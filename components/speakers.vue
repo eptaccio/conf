@@ -3,7 +3,7 @@
     <div class="size-padding margin content" id="speakers">
       <div class="relative">
         <div class="box-title">
-          <h2>Palestrantes</h2>
+          <h2>Palestrantes Confirmados</h2>
         </div>
 
         <div class="speakers-container container wrap">

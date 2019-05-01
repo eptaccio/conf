@@ -28,12 +28,12 @@
               <div class="header--block--date container column">
                 <div class="box-data container column margin-bottom-40">
                   <span class="span-uppercase">Localização</span>
-                  <span class="font-span">Parque Internacional de Exposições Francisco Feio Ribeiro - Maringá PR</span>
+                  <span class="font-span">Unicesumar - Maringá PR</span>
                 </div>
 
                 <div class="box-data container column margin-bottom-40">
                   <span class="span-uppercase">DATA</span>
-                  <span class="font-span">28 de julho</span>
+                  <span class="font-span">03 de agosto</span>
                 </div>
 
                 <div class="box-data container column">
@@ -80,7 +80,7 @@ import menuFixed from "@/components/menu";
 export default {
   data: function() {
     let now = new Date();
-    let eventDate = new Date(2019, 6, 28, 8);
+    let eventDate = new Date(2019, 7, 3, 8);
 
     return {
       time: eventDate - now

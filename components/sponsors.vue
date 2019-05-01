@@ -12,7 +12,7 @@
             </a>
           </li>
         </ul>
-        <h3 class="support--type flex-grow-1">Silver</h3>
+        <h3 class="support--type flex-grow-1" v-if="getSponsorByType('silver').lenght">Silver</h3>
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="sponsor in getSponsorByType('silver')" :key="sponsor.id">
             <a v-bind:href="sponsor.address">
@@ -30,7 +30,7 @@
 
     <div class="support--block justify-content-center container column" id="support">
       <div class>
-        <h2 class="support--title flex-grow-1">Apoio</h2>
+        <h2 class="support--title flex-grow-1" v-if="support.lenght">Apoio</h2>
 
         <ul class="support--list list-style-none">
           <li class="support--item" v-for="supporter in support" :key="supporter.id">
